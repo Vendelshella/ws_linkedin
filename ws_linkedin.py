@@ -22,7 +22,7 @@ if __name__ == "__main__":
     companies_dict = {}
 
     # Recorrer los resultados filtrados mediante url
-    for pagina in range(1, 44):  # Páginas de 1 a 66
+    for pagina in range(1, 67):  # Páginas de 1 a 66
         # Página filtrada en linkedin por empresas y por ubicación:
         driver.get(f'https://www.linkedin.com/search/results/companies/?companyHqGeo=%5B"101598293"%5D&keywords=Toledo&origin=FACETED_SEARCH&page={pagina}')
         
